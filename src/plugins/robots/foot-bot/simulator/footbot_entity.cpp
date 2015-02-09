@@ -311,7 +311,7 @@ namespace argos {
          GetNodeAttributeOrDefault(t_tree, "rab_range", fRange, fRange);
          m_pcRABEquippedEntity = new CRABEquippedEntity(this,
                                                         "rab_0",
-                                                        10,
+                                                        66,
                                                         fRange,
                                                         *m_pcEmbodiedEntity,
                                                         CVector3(0.0f, 0.0f, RAB_ELEVATION));
